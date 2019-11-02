@@ -1,0 +1,13 @@
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Update the graph
+    steps:
+    - name: update the graph
+      id: update_graph
+      uses: regro/bot-updater

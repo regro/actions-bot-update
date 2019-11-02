@@ -1,0 +1,6 @@
+name: 'RCFAB graph updater'
+description: "Update bot' graph"
+author: 'CJ-Wright'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
